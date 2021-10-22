@@ -299,7 +299,7 @@ U 1 1 62E54C40
 P 5450 3550
 F 0 "C6" V 5600 3550 50  0000 C CNN
 F 1 "0.1uf" V 5700 3550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5488 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5488 3400 50  0001 C CNN
 F 3 "~" H 5450 3550 50  0001 C CNN
 	1    5450 3550
 	0    1    1    0   
@@ -310,7 +310,7 @@ U 1 1 62E55902
 P 6150 3000
 F 0 "C4" H 6350 3000 50  0000 C CNN
 F 1 "0.1uf" H 6300 2900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6188 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6188 2850 50  0001 C CNN
 F 3 "~" H 6150 3000 50  0001 C CNN
 	1    6150 3000
 	1    0    0    -1  
@@ -375,7 +375,7 @@ U 1 1 63AADFFF
 P 4750 900
 F 0 "C2" H 4850 1000 50  0000 C CNN
 F 1 "0.1uf" H 4900 800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4788 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4788 750 50  0001 C CNN
 F 3 "~" H 4750 900 50  0001 C CNN
 	1    4750 900 
 	1    0    0    -1  
@@ -397,7 +397,7 @@ U 1 1 63C4EE5A
 P 1400 3550
 F 0 "C7" H 1600 3550 50  0000 C CNN
 F 1 "0.1uf" H 1600 3650 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1438 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1438 3400 50  0001 C CNN
 F 3 "~" H 1400 3550 50  0001 C CNN
 	1    1400 3550
 	-1   0    0    1   
@@ -421,7 +421,7 @@ U 1 1 63E819D0
 P 3700 5050
 F 0 "C5" V 3850 5050 50  0000 C CNN
 F 1 "0.1uf" V 3950 5050 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3738 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3738 4900 50  0001 C CNN
 F 3 "~" H 3700 5050 50  0001 C CNN
 	1    3700 5050
 	-1   0    0    1   
@@ -448,7 +448,7 @@ U 1 1 640B1EEC
 P 1450 1600
 F 0 "C1" V 1500 1450 50  0000 C CNN
 F 1 "0.1uf" V 1600 1600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1488 1450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1488 1450 50  0001 C CNN
 F 3 "~" H 1450 1600 50  0001 C CNN
 	1    1450 1600
 	0    -1   -1   0   
@@ -479,7 +479,7 @@ U 1 1 645BAA09
 P 9450 950
 F 0 "T1" H 9628 946 50  0000 L CNN
 F 1 "Logo" H 9628 855 50  0000 L CNN
-F 2 "Caravel:logo_small" H 9450 950 50  0001 C CNN
+F 2 "Caravel:logo" H 9450 950 50  0001 C CNN
 F 3 "" H 9450 950 50  0001 C CNN
 	1    9450 950 
 	1    0    0    -1  
@@ -560,7 +560,7 @@ U 1 1 61E8C6B1
 P 6150 2300
 F 0 "C3" H 6350 2300 50  0000 C CNN
 F 1 "0.1uf" H 6300 2200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6188 2150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6188 2150 50  0001 C CNN
 F 3 "~" H 6150 2300 50  0001 C CNN
 	1    6150 2300
 	1    0    0    -1  
@@ -844,7 +844,7 @@ Text GLabel 6400 3250 2    50   Input ~ 0
 vccd
 Text GLabel 6400 2050 2    50   Input ~ 0
 vdda
-Text GLabel 8950 3850 0    50   Input ~ 0
+Text GLabel 8950 4050 0    50   Input ~ 0
 vdda
 Text GLabel 1650 6250 0    50   Input ~ 0
 vddio
@@ -916,7 +916,7 @@ Connection ~ 9450 4250
 Connection ~ 9450 4050
 Connection ~ 9450 3850
 Connection ~ 9450 3650
-Text GLabel 8950 6250 0    50   Input ~ 0
+Text GLabel 8950 6050 0    50   Input ~ 0
 vddio
 Text GLabel 8950 5050 0    50   Input ~ 0
 vccd
@@ -958,11 +958,11 @@ Text GLabel 8950 4450 0    50   Input ~ 0
 gpio
 Text GLabel 8950 5450 0    50   Input ~ 0
 xclk
-Text GLabel 8950 4050 0    50   Input ~ 0
+Text GLabel 8950 3850 0    50   Input ~ 0
 vdda1
 Text GLabel 8950 5850 0    50   Input ~ 0
 vdda2
-Text GLabel 8950 6050 0    50   Input ~ 0
+Text GLabel 8950 6250 0    50   Input ~ 0
 vccd2
 Connection ~ 2000 6650
 Connection ~ 2000 6850
@@ -1048,4 +1048,15 @@ Connection ~ 2000 5850
 Connection ~ 2000 6050
 Connection ~ 2000 6250
 Connection ~ 2000 6450
+$Comp
+L Caravel:Logo T2
+U 1 1 61D316CF
+P 9450 1700
+F 0 "T2" H 9628 1696 50  0000 L CNN
+F 1 "Logo" H 9628 1605 50  0000 L CNN
+F 2 "Caravel:ef_logo" H 9450 1700 50  0001 C CNN
+F 3 "" H 9450 1700 50  0001 C CNN
+	1    9450 1700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
